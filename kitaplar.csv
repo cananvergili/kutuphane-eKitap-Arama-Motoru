@@ -1,0 +1,61 @@
+id;baslik;yazar;yil;kategori
+1001;Veri Yapilari ve Algoritmalar;Thomas Cormen;2012;Bilgisayar
+1002;Algoritma Tasarimi;Jon Kleinberg;2005;Bilgisayar
+1003;C Programlama Dili;Kernighan & Ritchie;1988;Bilgisayar
+1004;Modern C;Jens Gustedt;2021;Bilgisayar
+1005;Yapay Zeka: Bir Yaklasim;Stuart Russell;2010;Bilgisayar
+1006;Python ile Programlama;Mark Lutz;2016;Bilgisayar
+1007;Java Programlama;Herbert Schildt;2013;Bilgisayar
+1008;Makine Ogrenmesi;Ethem Alpaydin;2014;Bilgisayar
+1009;Deep Learning;Ian Goodfellow;2016;Bilgisayar
+1010;Bilgisayar Mimarisi;John Hennessy;2011;Bilgisayar
+2001;Simyaci;Paulo Coelho;1988;Roman
+2002;Kurk Mantolu Madonna;Sabahattin Ali;1943;Roman
+2003;Hayvan Ciftligi;George Orwell;1945;Roman
+2004;1984;George Orwell;1949;Roman
+2005;Cesur Yeni Dunya;Aldous Huxley;1932;Roman
+2006;Seker Portakali;Jose Mauro;1968;Roman
+2007;Tutunamayanlar;Oguz Atay;1972;Roman
+2008;Bir Delinin Hatira Defteri;Gogol;1835;Roman
+2009;Cocukluk;Lev Tolstoy;1852;Roman
+2010;Anna Karenina;Tolstoy;1877;Roman
+3001;Zamanin Kisa Tarihi;Stephen Hawking;1988;Bilim
+3002;Kozmos;Carl Sagan;1980;Bilim
+3003;Evrenin Yapisi;Brian Greene;2011;Bilim
+3004;Atomun Icinde;Jim Al-Khalili;2013;Bilim
+3005;Beyin;David Eagleman;2015;Bilim
+3006;Mutlu Beyin;Loretta Graziano;2017;Bilim
+3007;Kara Delikler;Stephen Hawking;2016;Bilim
+3008;Kaos Teorisi;James Gleick;1987;Bilim
+3009;Sayi: Matematiksel Bir Yolculuk;Tobias Dantzig;1930;Bilim
+3010;Sonsuzluk Problemleri;David Hilbert;1920;Bilim
+4001;Hobbit;J.R.R. Tolkien;1937;Fantastik
+4002;Yuzuklerin Efendisi;J.R.R. Tolkien;1954;Fantastik
+4003;Harry Potter ve Felsefe Tasi;J.K. Rowling;1997;Fantastik
+4004;Buz ve Atesin Sarkisi;George R.R. Martin;1996;Fantastik
+4005;Narnia Gunlukleri;C.S. Lewis;1950;Fantastik
+4006;Altin Pusula;Philip Pullman;1995;Fantastik
+4007;Ejderha Mızragi Kronikleri;Weis & Hickman;1984;Fantastik
+4008;Karanlik Orman;Liu Cixin;2008;Fantastik
+4009;Gölgenin Efendisi;Brandon Sanderson;2010;Fantastik
+4010;Unutulmus Diyarlar;R.A. Salvatore;1990;Fantastik
+5001;Suc ve Ceza;Dostoyevski;1866;Klasik
+5002;Savas ve Baris;Tolstoy;1869;Klasik
+5003;Beyaz Dis;Jack London;1906;Klasik
+5004;Deniz Kurdu;Jack London;1904;Klasik
+5005;Notre Dame'in Kamburu;Victor Hugo;1831;Klasik
+5006;Donusum;Franz Kafka;1915;Klasik
+5007;Madame Bovary;Flaubert;1857;Klasik
+5008;Germinal;Emile Zola;1885;Klasik
+5009;Jane Eyre;Charlotte Bronte;1847;Klasik
+5010;Gurur ve Önyargi;Jane Austen;1813;Klasik
+6001;Siyah Inci;Anna Sewell;1877;Drama
+6002;Peter Pan;J.M. Barrie;1911;Macera
+6003;Robinson Crusoe;Daniel Defoe;1719;Macera
+6004;Uyuyan Guzel;Charles Perrault;1697;Masal
+6005;Pinokyo;Carlo Collodi;1883;Masal
+6006;Define Adasi;Robert Louis Stevenson;1883;Macera
+6007;Korsan Adasi;Louis Stevenson;1890;Macera
+6008;Uc Silahşorlar;Alexandre Dumas;1844;Macera
+6009;Monte Kristo Kontu;Alexandre Dumas;1844;Macera
+6010;Kırmızı Başlıklı Kız;Grimm Kardeşler;1812;Masal
