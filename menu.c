@@ -21,7 +21,6 @@ static void ekrani_temizle(void) {
 
 static void devam_et(void) {
     printf("\nDevam etmek icin Enter'a basin...");
-
     int c;
     while ((c = getchar()) != '\n' && c != EOF) { }
     getchar();
@@ -31,12 +30,12 @@ void menuyu_yazdir(void) {
     ekrani_temizle();
 
     printf("=====================================================\n");
-    printf("        KUTUPHANE / e-KITAP ARAMA MOTORU            \n");
+    printf("        KUTUPHANE / e-KITAP ARAMA MOTORU             \n");
     printf("=====================================================\n");
-    printf("  Dengeli Agac: AVL, Trie                           \n");
-    printf("  Arama       : AVL ID, Trie baslik, Binary Search  \n");
-    printf("  Siralama    : Quick Sort, Merge Sort              \n");
-    printf("  Ekstra      : Stack, BFS, Filtre, CSV, Skor       \n");
+    printf("  Dengeli Agac: AVL, Trie                            \n");
+    printf("  Arama       : AVL ID, Trie baslik, Binary Search   \n");
+    printf("  Siralama    : Quick Sort, Merge Sort               \n");
+    printf("  Ekstra      : Stack, BFS, Filtre, CSV, Skor        \n");
     printf("=====================================================\n\n");
 
     printf("  [1]  Tum kitaplari listele\n");
@@ -52,8 +51,8 @@ void menuyu_yazdir(void) {
     printf("  [11] Raflar arasindaki en kisa yol (BFS)\n");
     printf("  [12] Kitaplari CSV dosyasina kaydet\n");
     printf("  [13] CSV dosyasindan kitap yukle\n");
-    printf("  [14] Yeni kitap ekle\n");
-    printf("  [15] Kitap sil (ID ile)\n");
+    printf("  [14] Yeni kitap ekle (otomatik CSV)\n");
+    printf("  [15] Kitap sil (otomatik CSV)\n");
     printf("  [0]  Cikis\n\n");
 }
 
@@ -170,11 +169,7 @@ void secimi_isle(int secim, int *program_bitti_mi) {
             printf("Binary Search ile aramak istediginiz ID: ");
             scanf("%d", &id);
 
-            int idx = binary_search_id(kitaplar, kitap_sayisi, id);
-            if (idx != -1) {
-                yigin_ekle(id);
-            }
-
+            binary_search_id(kitaplar, kitap_sayisi, id);
             devam_et();
             break;
         }
